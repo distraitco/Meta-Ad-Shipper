@@ -1,0 +1,14 @@
+{
+  "name": "ad-shipper",
+  "version": "1.0.0",
+  "description": "Slack bot to log ads to Notion",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@notionhq/client": "^2.2.14",
+    "@slack/bolt": "^3.17.1",
+    "dotenv": "^16.4.5"
+  }
+}
